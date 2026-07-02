@@ -9,7 +9,7 @@ and web URLs - then ask it anything. Every answer is grounded in your documents 
 - Ingests PDFs, Word documents, TXT, Markdown, and live web URLs
 - Chunks and embeds content into a local FAISS vector index
 - Answers natural language questions using top-k semantic retrieval
-- Returns answers with cited sources — no hallucination
+- Returns answers with cited sources - no hallucination
 - Exposes a FastAPI REST API with Swagger docs
 - Includes a responsive frontend UI with dark/light theme toggle
 ---
