@@ -1,7 +1,7 @@
 # Personal Knowledge Assistant - RAG System
 
 A production-ready Retrieval-Augmented Generation (RAG) system built from scratch in Python. Feed it your PDFs, Word documents, text files,
-and web URLs - then ask it anything. Every answer is grounded in your documents with zero hallucination.
+and web URLs then ask it anything. Every answer is grounded in your documents with zero hallucination.
 
 
 ## What it does
@@ -122,7 +122,7 @@ cp .env.example .env         # Mac/Linux
 Then open `.env` and add your Groq API key:
 GROQ_API_KEY=gsk_your_key_here
 
-Get a free key at **console.groq.com** — no credit card needed.
+Get a free key at **console.groq.com** - no credit card needed.
 
 ### 5. Ingest your first document
 ```bash
@@ -147,7 +147,7 @@ Server runs at **http://localhost:8000**
 API docs at **http://localhost:8000/docs**
 
 ### 7. Open the frontend
-Double-click `index.html` in your project folder — it opens in your browser and connects to the backend automatically.
+Double-click `index.html` in your project folder it opens in your browser and connects to the backend automatically.
 
 ---
 
@@ -185,27 +185,10 @@ curl -X POST "http://localhost:8000/query" \
 - 496 chunks indexed from a single Wikipedia article in under 60 seconds
 - 384-dimensional dense vector embeddings
 - Top-5 semantic retrieval per query
-- 6 modular Python files — fully extensible
+- 6 modular Python files - fully extensible
 - 4 document types supported + live web scraping
 - Sub-second FAISS retrieval
-- Zero frontend dependencies — no npm, no build step
+- Zero frontend dependencies - no npm, no build step
 
----
 
-## Future improvements
 
-- [ ] Add conversation memory / multi-turn chat history
-- [ ] Support for hybrid search (BM25 + vector)
-- [ ] Docker containerization
-- [ ] User authentication
-- [ ] Support for more file types (Excel, PowerPoint, images with OCR)
-- [ ] Switch to a reranking model for better retrieval quality
-- [ ] Deploy to cloud (AWS / GCP / Azure)
-
----
-
-## Author
-
-Built by **ANUHYA L **
-
----
